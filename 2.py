@@ -50,21 +50,21 @@ def main():
     # else:
     #     print('вообще не знаю такое')
 
-    # циклы и листы
-    l = [66, 9, -3, 457, -346, 99, 22, -1235, 55, 54]
+    # # циклы и листы
+    # l = [66, 9, -3, 457, -346, 99, 22, -1235, 55, 54]
 
-    # print(l)
+    # # print(l)
 
-    # print(l[0], l[1], l[2], l[3], l[4], l[5])
-    x = 0
+    # # print(l[0], l[1], l[2], l[3], l[4], l[5])
+    # x = 0
 
-    for number in l:
-        if number % 2 == 0:
-            x = x + 1
+    # for number in l:
+    #     if number % 2 == 0:
+    #         x = x + 1
 
-        if x == 3:
-            # print(number)
-            break # тут произойдет выход из цикла
+    #     if x == 3:
+    #         # print(number)
+    #         break # тут произойдет выход из цикла
 
     # for n in range(5, 9):
     #     print(n)
@@ -92,5 +92,39 @@ def main():
     random_number = random.randint(1, 10)
     # print(random_number)
 
-main()
+    dz()
 
+def dz():
+    # тут пишем домашку
+    spisok = [4, 33, -32, 435, 26, 40]
+    print (spisok)
+    for chicelka in spisok:
+       if chicelka < 0:
+        print (chicelka)
+
+    index = 0
+    while index < len(spisok):
+        chicelka = spisok [index]
+        index = index + 1     
+        print (chicelka + 5)
+    # while True:
+    #     if index < len(spisok):
+    #         chicelka = spisok [index]
+    #         index = index + 1
+    #         print (chicelka)
+
+    #игра угадай число 
+    # a = 3
+    # # spisok = [1, 2, 3, 4, 5] 
+    # c = input ("Введи число: ")
+    # # for b in spisok:
+    # if c > a:
+    #     print (f"Число {c} больше загаданного")
+    # if c < a:
+    #     print (f"Число {c} меньше загаданного")
+    # if c == a:
+    #     print ("Ты выиграл")
+    
+
+    main()
+    
